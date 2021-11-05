@@ -1,0 +1,43 @@
+%flex-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+$info: #0059ff;
+$success: #00b894;
+$error: #d63031;
+$white: #ffffff;
+$yellow: yellow; 
+
+.btn{
+  @extend %flex-centered;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 30px;
+  margin: 10px;
+  color:$white;
+  
+  &.info{
+    background-color: $info;
+    &:hover{
+      background-color: black;
+      color: $yellow;
+    }
+  
+  }
+  &.error{
+    background-color: $error;
+    &:hover{
+      background-color: black;
+      color: $yellow ;
+    }
+  }
+  &.success{
+    background-color: $success;
+    &:hover{
+      background-color: black;
+      color: $yellow;
+    }
+  }
+}

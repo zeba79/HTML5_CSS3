@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johann  ddd Sebastian Bach</title>
+</head>
+
+<body style="background-color: chocolate;">
+
+    <!--Dans ce cours j'ai appris à intégrer les balises  <video cible ="src"> ; <iframe cible ="src"> ; <audio cible="src">; et <object cible="data"> audio et vidéo
+        nécessitent un atribut Controls, Autoplay et Muted les attributs Width et Heught servent à dimensionner les objets à intégrer-->
+    
+    <h1>Johann Sebastian Bach, le compositeur le plus célèbre de la planète musicale</h1>
+
+    <h2 id="retour">Visitez Johannes Bach</h2>
+
+    <!--table des matières avec des ancres vers les articles-->
+
+    <ul style="list-style: none;">
+        <li>
+            <a 
+            href="#le-portrait-de-bach" 
+            title="Le portatrait de Bach">
+            Le portrait de Johann Sebastian Bach</a>
+                       
+ 
+            
+        </li>
+        <li>
+            <a 
+            href="#une-video-de-bach" 
+            title="Vidéo instrument Bach">
+            Une vidéo montrant un orgue d'église, le type d'instrument sur lequel Bach composait</a>
+           
+        </li>
+
+        <li>
+            <a 
+            href="#un-extrait-sonore" 
+            title="Extrait sonore Bach">
+            Un extrait sonore d'une composition</a>
+        </li>
+
+        <li> 
+            <a 
+            href="#un-pdf-de-presentation" 
+            title="Fichier pdf partition Bach">
+            Un PDF qui présente la partition du motet BWV 277</a>
+        </li>
+
+        <li><a 
+            href="#un-encradre-article" 
+            title="Article Wikipédia Bach"> 
+            Un encadré vers l'article Wikipédia du compositeur Johannes Bach</a>
+        </li>
+
+    </ul>
+
+     <!--le portrait de Bach-->
+    <h2 id="le-portrait-de-bach">Le portrait de Johann Sebastian Bach</h2>
+
+    <object 
+        data="./photos/johann-sebastian-bach.jpg"
+        type="image/jpeg"
+        width="300"
+        height="300"
+        title="Portrait Bach">
+        L'image n'a pu s'afficher
+        
+    </object>
+
+     <!--Bouton retour haut de page-->
+    <p> <button><a href="#retour"> ⬆ Haut de page</a> </button></p>    
+
+    <!--Une vidéo montrant le type d'instrument de Bach-->
+    <h2 id="une-video-de-bach">Une vidéo montrant un orgue d'église, le type d'instrument sur lequel Bach composait </h2>
+
+    <video 
+        width="600"
+        height="500"
+        controls
+        muted
+        autoplay>
+
+        <source src="./video/orgue.mp4" type="video/mp4">
+        Votre vidéo n'a pu jouer
+    </video>
+
+     <!--Bouton retour haut de page-->
+    <p> 
+        <button><a href="#retour"> ⬆ Haut de page</a> </button>
+    </p>
+
+    <!--Un extrait sonore de Bach-->
+    <h2 id="un-extrait-sonore" >Un extrait sonore d'une composition</h2>
+
+    <audio 
+        
+        width="600"
+        height="500"
+        controls
+        muted
+        autoplay
+        title="Extrait Sonore Bach">
+        <source src="./audio/jesu-meine-freude-BWV-227.mp3" type="audio/mp3">
+        l'audio n'a pu jouer
+    </audio>
+
+     <!--Bouton retour haut de page-->
+    <p> 
+        <button><a href="#retour"> ⬆ Haut de page</a> </button>
+    </p>
+
+
+    <!--Un fichier pdf de la musique de Bach-->
+        <h2 id="un-pdf-de-presentation" >Un PDF qui présente la partition du motet BWV 277</h2>
+    <object 
+        data="./documents pdf/jesu-meine-freude-BWV-227.pdf" 
+        type="application/pdf"
+        width="600"
+        height="500"
+        >
+        Le document n'a pu télécharger
+    </object>
+
+     <!--Bouton retour haut de page-->
+    <p> 
+        <button><a href="#retour"> ⬆ Haut de page</a> </button>
+    </p>
+
+
+    <!-- Un article de Bach sur Wikipédia-->
+        <h2 id="un-encradre-article" >Un encadré vers l'article Wikipédia du compositeur Johannes Bach</h2>
+    <iframe 
+        src="https://fr.wikipedia.org/wiki/Johannes_Bach"
+        width="600"
+        height="500" >
+        Le lien n'est pas accessible
+    </iframe>
+
+    <!--Bouton retour haut de page-->
+    <p> 
+        <button><a href="#retour"> ⬆ Haut de page</a> </button>
+    </p>
+
+</body>
+</html>

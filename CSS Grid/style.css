@@ -1,0 +1,20 @@
+.grille{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 20px 20px;
+  
+}
+
+img{
+  width: 70%;
+  height: 70%;
+}
+
+article{
+  border : 2px solid black;
+
+}
+
+div{
+  border: 2px solid blue;
+}

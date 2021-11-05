@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Multimedia HTML</title>
+</head>
+<body style="background-color: bisque; color: brown;" >
+
+
+    <!--Dans ce cours j'ai appris à intégrer les balises  <video cible ="src"> ; <iframe cible ="src"> ; <audio cible="src">; et <object cible="data"> audio et vidéo
+        nécessitent un atribut Controls, Autoplay et Muted les attributs Width et Heught servent à dimensionner les objets à intégrer-->
+
+    <h1>Voici la dernière vidéo de mes vacances</h1>
+
+        <!--Listes des vidéos de vacances-->
+    <ul id="retour">
+        <li>
+            <a href="#video-du-japon">Vidéo du Japo</a> 
+        </li>
+        <li>
+            <a href="#carte-du-japon">Carte du Japon</a> 
+        </li>
+        <li>
+            <a href="#video-fally-ipupa">Vidéo Fally Ipupa</a> 
+
+        </li>
+        <li>
+            <a href="#audio-neil-amstrong"> Audio de Neil Amtrong par la Nasa</a>
+        </li>
+        <li>
+            <a href="#video-sortie-novembre">Vidéos sortie de Novembre</a> 
+        </li>
+        <li>
+            <a href="#dossier-professionnel">Dossier professionnel</a>
+        </li>
+        <li>
+            <a href="#reglement-rgpd">Règlement RGPD</a>
+        </li>
+
+    </ul>
+
+        <!--Vidéou du Japon-->
+    <h2 id="video-du-japon">Vidéo du Japon</h2>
+
+    <video 
+        width="600" 
+        height="400" 
+        autoplay 
+        controls 
+        muted
+        title="vidéo du japon">
+
+        <source 
+            src="./video/voyage-japon.mp4" 
+            type="video/mp4">
+            Votre navigateur se supporte pas la vidéo
+    </video>
+
+    <p> 
+        <button><a href="#retour"> ⬆ Haut de page</a> </button>
+    </p>
+
+    <!--Carte deu Japon-->
+    <h2 id="carte-du-japon">Carte du Japon</h2>
+
+    <iframe 
+        width="500" 
+        height="400" 
+        src="https://maps.google.com/maps?q=japan&t=&z=7&ie=UTF8&iwloc=&output=embed" 
+        frameborder="0" 
+        scrolling="no" 
+        marginheight="0" 
+        marginwidth="0"
+        title="Carte du Japon">
+        Votre cadre n'a pu s'afficher
+    </iframe>
+
+    <p> 
+        <button><a href="#retour"> ⬆ Haut de page</a> </button>
+    </p>
+
+        <!--Vidéo Fally Ipupa-->
+    <h2 id="video-fally-ipupa">Vidéo Fally Ipupa</h2>
+
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/p4ljo8KpBkM" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen
+        title="Vidéo Fally Ipupa">
+        Votre vidéo n'a pu s'afficher
+    </iframe>   
+
+    <p> 
+        <button><a href="#retour"> ⬆ Haut de page</a> </button>
+    </p>
+
+        <!--Audio Neil Amstrong-->
+    <h2 id="audio-neil-amstrong">Audio de Neil Amtrong par la Nasa</h2>
+
+    <audio 
+        controls  
+        loop
+        title="Audio Neil Amstrong">
+
+        <source  src="./audio/audio-Neil-Amstrong.wav" type="audio/wav" >
+        L'audio n'a pu jouer
+    </audio>
+
+
+    <p> 
+        <button><a href="#retour"> ⬆ Haut de page</a> </button>
+    </p>
+
+        <!--Vidéos Sortie de novembre-->
+    <h2 id="video-sortie-novembre"> Vidéos sortie de Novembre</h2>
+
+    <audio 
+      
+        controls 
+        muted 
+        loop
+        title="Vidéo Sortie de Novembre">
+
+        <source  src="./audio/audio.flac" type="audio/flac" >
+        L'audio n'a pu jouer
+    </audio>
+
+    <p> 
+        <button><a href="#retour"> ⬆ Haut de page</a> </button>
+    </p>
+
+        <!--Dossier professionnel-->
+    <h2 id="dossier-professionnel">Dossier professionnel</h2>
+
+    <object
+        type="application/pdf" 
+        data="./documents pdf/1-Dossier_professionnel_version_manuscrite.pdf"
+        width="500"
+        height="250"
+        title="Dossier Professionnel">
+        La page n'a pu s'afficher
+    </object>
+
+    <p> 
+        <button ><a href="#retour"> ⬆ Haut de page</a> </button>
+    </p>
+
+        <!--Règlement RGPD-->
+    <h2 id="reglement-rgpd">Règlement RGPD</h2>
+
+    <object 
+        type="application/pdf"
+        data="./documents pdf/rgpd_cnil.pdf" 
+        width="500"
+        height="500"
+        title="Règlement RGPD">
+        Votre document n'a pu s'afficher
+    </object>
+    
+    <p> 
+        <button ><a href="#retour"> ⬆ Haut de page</a> </button>
+    </p>
+
+    </body>
+</html>
